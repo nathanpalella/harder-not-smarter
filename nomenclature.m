@@ -7,12 +7,10 @@
 % (all include start and end times if not shown)
  
 ## Operator actions:
-% Cut blank
+% Blank (retrieve or cut blank)
 % Walk
 % Wait
-% Handling (includes machine placement, weighing, etc. other than inspection)
-% Deflashing/removing
-% Inspecting/storing
+% Manual (any manual operation)
 % Special (should be defined per case, e.g. labeling, manual hole punching)
 
 ## Machine actions:
@@ -20,12 +18,12 @@
 % Wait (machine is finished but is waiting for parts to be removed)
 
 ## Machine types
-% Presser
-% Heater
-% Cutter
-% Welder
-% Gluer
-% Puncher
+% Press
+% Heat
+% Cut
+% Weld
+% Glue
+% Punch
 % Special (defined per case)
 
 % Each machine type will receive a number if there are more than 1 of that type per cell

@@ -12,10 +12,7 @@
 % since all the processes repeat themselves. This gives the user the ability to seek ahead of time.
 
 ## Functionality as follows:
-% Define 5 sets of variables: machine process, operator process, manual process, wait process, and travel process
-% Within each variable are 3 assets: pointer, start time, end time
-% All times are in absolute units of seconds.
-% The pointer binds a variable to its assets (to be used for whatever reason)
+% Define matrix with 3 dimensions: process type, start time, end time
 
 % The overall logic is to work such that, unlike the old OBC diagram, this program can keep track of 
 % each individual process, this way the user can watch a component process in real time and record 
@@ -25,8 +22,8 @@
 
 ## All the features I hope to put it into this program:
 % Visual workflow producer (given)
+% Import times/operations from an excel or text file (for less modification)
 % Downtime tracker
-% Parts/hour, parts/shift, parts/unit-time estimates
 % Process time averager
 % Real time playback mode
 % Real time playback mode, The Matrix Edition (probably not)
